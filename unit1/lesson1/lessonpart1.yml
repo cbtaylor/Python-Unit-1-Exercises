@@ -100,3 +100,24 @@ content: >
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/exercise01.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: If name holds the value "Brian", which of the following print
+          statements will correctly generate the output "Hello Brian!"?
+        options:
+          - id: "1"
+            value: print("Hello", name + "!")
+            explanation: This statement uses string concatenation to add an exclamation mark
+              directly after the name without a space.
+            isCorrect: true
+          - id: "2"
+            value: print("Hello", name, "!")
+            explanation: This statement uses a comma, which adds a space before the
+              exclamation mark.
+          - id: "3"
+            value: print("Hello" + name + "!")
+            explanation: This statement does not include a space between "Hello" and the
+              name.
