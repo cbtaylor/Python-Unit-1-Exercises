@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page 1
+content: >
+  ## Understanding the Comma in Print Statements
+
+
+  In Python, the `print()` function is used to display output to the console.
+  You've already seen how to use `print()` with basic strings and variables.
+  Now, let's explore how commas affect the output.
+
+
+  ### The Effect of Commas
+
+
+  When you use a comma within the `print()` function, it separates items and
+  automatically inserts a space between them. This is useful for printing
+  multiple items in a single line without manually adding spaces.
+
+
+  **Example:**
+
+
+  ```python
+
+  name = "Alice"
+
+  age = 30
+
+  print("Name:", name, "Age:", age)
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  Name: Alice Age: 30
+
+  ```
+
+
+  Notice how the comma adds a space between each item in the output.
+
+
+  ### Task: Modify the Print Statement
+
+
+  Your task is to modify the print statement so that a period appears after the
+  name. This will help you understand how to format strings effectively.
+
+
+  **Original Code:**
+
+
+  ```python
+
+  name = "Alice"
+
+  print("Hello", name)
+
+  ```
+
+
+  **Modified Code:**
+
+
+  ```python
+
+  name = "Alice"
+
+  print("Hello", name + ".")
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  Hello Alice.
+
+  ```
+
+
+  By using the `+` operator, you can concatenate strings, allowing you to add a
+  period directly after the name without a space.
+
+
+  ### Practice
+
+
+  Try modifying the print statement in different ways to see how commas and
+  string concatenation affect the output. Experiment with adding other
+  punctuation marks or text to enhance your understanding of string formatting
+  in Python.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/exercise01.py
